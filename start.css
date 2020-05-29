@@ -1,0 +1,26 @@
+.wrapper{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+
+}
+
+.side-right{
+	/*grid-column: 1/3;*/
+}
+
+.side-left{
+	padding: 1em;
+	padding-left: 12em;
+}
+
+.footer{
+	font-family:Arial, sans-serif;
+	grid: 0;
+}
+a{
+	text-decoration:none;
+	font-size: 0.8em;
+	font-style: bold;
+	margin: 0.2em;
+	text-align: center;
+}
