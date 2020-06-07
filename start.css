@@ -1,26 +1,138 @@
 .wrapper{
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 2fr 2fr;
 
 }
 
 .side-right{
-	/*grid-column: 1/3;*/
+	padding-right: 14em;
 }
 
 .side-left{
 	padding: 1em;
 	padding-left: 12em;
+	padding-right: 1em;
 }
 
 .footer{
 	font-family:Arial, sans-serif;
-	grid: 0;
+	width: 100%;
+	text-align:center;
+	grid: 0;	
 }
+
 a{
 	text-decoration:none;
 	font-size: 0.8em;
 	font-style: bold;
 	margin: 0.2em;
 	text-align: center;
+	color: #00376B;
+}
+
+.login{
+	border: 1px solid #DDD;
+	margin-top: 2em;
+	width: 70%;
+	height: 60%;
+}
+h1{
+	text-align: center;
+	/*font-size: 2.5em;*/
+	margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Arial , sans-serif;;
+}
+span{
+	color: #a59f9f;
+	text-align: center;
+	padding-left: 0.5em;
+	margin: 0.5em;
+
+}
+label{
+	border-radius: 3px;
+}
+
+.user-box{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 36px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+    border:1px solid #DDD;
+    margin-left: 9px;
+    margin-right: 10px;
+	
+}
+
+.pass-box{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 36px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+     border:1px solid #DDD;
+    margin-top: 8px;
+    margin-left: 9px;
+    margin-right: 10px;
+}
+
+button{
+	background-color: #89d1ec;
+	    margin-left: 45px;
+	    padding: 5px;
+	    margin-bottom:15px;
+}
+
+.next{
+	color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+    padding-left: 130px;
+    margin-bottom: 12px;
+}
+
+element.style {
+}
+.KPnG0 {
+    color: #385185;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+._2Lks6{
+	margin-left: 120px;
 }
